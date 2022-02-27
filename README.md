@@ -1,24 +1,22 @@
-# vue
+# x-swiper
+* 
+* [Demo](https://github.com/gaoger/x-swiper/)
 
-## Project setup
-```
-npm install
-```
+## Installation
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+```npm
 
-### Compiles and minifies for production
-```
-npm run build
+npm install x-swiper
+
+yarn add x-swiper
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+
+import xSwiper from 'x-swiper'
+import 'x-swiper/lib/index.css'
+Vue.use(xSwiper)
+
+```
